@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script type="text/javascript" src="js/jquery-3.2.0.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Address book</h1>
+
+      <div class="row">
+
+        <div class="col-md-6">
+          <h2>Add a contact:</h2>
+          <form id="getTicket">
+            <div class="form-group">
+              <label for="age">Age</label>
+              <input type="text" class="form-control" id="age">
+            </div>
+            <div class="form-group">
+              <label for="movieChoice">Select your movie:</label>
+              <select id='movieChoice'>
+                <option value='newMovie1'>New Movie1</option>
+                <option value='newMovie2'>New Movie2</option>
+                <option value='newMovie3'>New Movie3</option>
+                <option value='oldMovie4'>Old Movie1</option>                                                               <option value='oldMovie5'>Old Movie2</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="startTime">Select your showtime</label>
+              <select id='startTime'>
+                <option value='1230'>12:30 PM</option>
+                <option value='1130'>11:30 AM</option>
+                <option value='0445'>4:45 AM</option>                                                               <option value='1830'>6:30 PM</option>
+                <option value='2315'>11:15 PM</option>
+                <option value='0030'>12:30 AM</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn">Add</button>
+          </form>
+
+
+        </div>
+
+        <div class="col-md-6">
+          <div>
+            <h2 id='movieShow'></h2>
+            <p id='timeShow'></p>
+            <p id='priceShow'></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
